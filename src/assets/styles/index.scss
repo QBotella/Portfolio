@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dosis:wght@200..800&display=swap');
+
+// import feuille des abstract
+@import "abstract/mixins";
+@import "abstract/variable";
+
+body {
+    font-family: "Dosis", sans-serif;
+    background-color: $background-color;
+    max-width: 1440px;
+}
+
+// import feuille de reset
+@import "base/reset";
+
+
+
+// import components
+@import "components/header";
+@import "components/about_me";
+@import "components/projets";

@@ -1,0 +1,14 @@
+.about {
+    display: flex;
+    margin: 50px;
+    &_me{
+        flex: 2;
+        color: $text-color;
+    }
+    img {
+        flex: 1;
+        border-radius: 50%;
+        width: 200px;
+        height: auto;
+    }
+}

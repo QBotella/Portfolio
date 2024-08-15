@@ -1,0 +1,16 @@
+.header {
+    @include flex-between;
+    margin: 0px 50px;
+    h2 {
+        color:$text-color;
+    }
+    ul {
+        display: flex;
+        list-style: none;
+        gap: 10px;
+        img {
+            width: 28px;
+            height: auto;
+        }
+    }
+}
